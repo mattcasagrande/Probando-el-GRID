@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-template-rows: 250px auto;
+}
+
+.item2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: center;
+    padding: 50px;
+}
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    text-align: center;
+    background-color: rgb(49, 48, 48);
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.item1 p {
+    color: white;
+    font-size: 20px;
+}
+
+.item3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    justify-self: center;
+    
+   
+}
+
+.jugando {
+    font-size: 40px;
+}
+
+.cuerpo {
+    display: grid;
+    grid-template-columns: 20% auto auto auto;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.izq {
+    grid-column-start: 1;
+    grid-column-end: auto;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    margin: 5px;
+}
+.derecha {
+    grid-column-start: 2 ;
+    grid-column-end: auto;
+    grid-row-start: 1 ;
+    grid-row-end: 5;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: coral;
+}
+img {
+    height: 200px;
+}
+h2 {
+    font-family: monospace;
+    color: rgb(199, 95, 57);
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(49, 48, 48);
+}
+p {
+    font-family: monospace;
+}
+
+li {
+    font-family: monospace;
+}
