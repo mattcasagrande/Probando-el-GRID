@@ -89,3 +89,19 @@ p {
 li {
     font-family: monospace;
 }
+
+#portfolio {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    background-color: rgb(49, 48, 48);
+}
+
+#portfolio a {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
